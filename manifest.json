@@ -1,0 +1,26 @@
+{
+  "name": "Note",
+  "description": "Markdown Note persisted on google drive for every web page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "auth.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "/note_popup/build/index.html",
+    "default_icon": {
+      "16": "/images/note_16.png",
+      "32": "/images/note_24.png",
+      "48": "/images/note_32.png",
+      "128": "/images/note_128.png"
+    }
+  },
+  "icons": {
+      "16": "/images/note_16.png",
+      "32": "/images/note_24.png",
+      "48": "/images/note_32.png",
+      "128": "/images/note_128.png"
+  },
+  "options_page": "options.html"
+}

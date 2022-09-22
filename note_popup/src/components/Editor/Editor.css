@@ -1,0 +1,27 @@
+textarea {
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+}
+
+.popup-viewer {
+  font-size: 120%;
+}
+
+p {
+  margin: 4px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+pre {
+  background-color: #f1f3f4;
+  margin-right: 4px;
+  padding: 4px;
+  overflow-x: scroll;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+  font-size: small;
+}
